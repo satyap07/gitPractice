@@ -34,4 +34,13 @@ func main() {
 	mp["papaya"] = 69
 	fmt.Println(mp)
 
+	//Map with integer key
+	mp2 := make(map[int]string)
+	mp2[1] = "apple"
+	mp2[2] = "banana"
+	mp2[3] = "pears"
+	mp2[4] = "papaya"
+	mp2[5] = "strawberry"
+	fmt.Println(mp2)
+
 }
