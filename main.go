@@ -40,6 +40,7 @@ func main() {
 	mp2[2] = "banana"
 	mp2[3] = "pears"
 	mp2[4] = "papaya"
+	mp2[5] = "strawberry"
 
 	fmt.Println(mp2)
 
